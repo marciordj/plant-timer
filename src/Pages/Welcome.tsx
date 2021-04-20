@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     color: colors.heading,
     textAlign: 'center',
+    marginTop: 15,
   },
   image: {
     width: 292,
