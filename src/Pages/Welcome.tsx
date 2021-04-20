@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
   },
   title: {
+    fontFamily: 'Jost-SemiBold',
     fontSize: 32,
-    fontWeight: 'bold',
     color: colors.heading,
     textAlign: 'center',
   },
@@ -43,10 +43,12 @@ const styles = StyleSheet.create({
     height: 284,
   },
   subtitle: {
+    fontFamily: 'Jost-Regular',
     fontSize: 17,
     color: colors.text,
     textAlign: 'center',
     paddingHorizontal: 18,
+    lineHeight: 25,
   },
 });
 

@@ -12,6 +12,24 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		40D4A7B8BCD14EE08456FA3E /* Jost-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CA2751B09C4F50AF497941 /* Jost-Black.ttf */; };
+		3CD29C60204C40B685FADE73 /* Jost-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A81BDACB9CD4D86AAA89B1E /* Jost-BlackItalic.ttf */; };
+		8F50643BE54F4780B712F61E /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9E5F0E417DC4B0EAF6B5F24 /* Jost-Bold.ttf */; };
+		5883B3791C8549D1ABF09775 /* Jost-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC95040FDD24E079C7D60BC /* Jost-BoldItalic.ttf */; };
+		C6834EE83505415B92022788 /* Jost-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0293A9D7054D44649FAB3BA8 /* Jost-ExtraBold.ttf */; };
+		CA5364820B2444748F7C4482 /* Jost-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4DFD4836384C51B6DC3515 /* Jost-ExtraBoldItalic.ttf */; };
+		94136705EB284692AF033681 /* Jost-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1719E09EF1B41A7843175E4 /* Jost-ExtraLight.ttf */; };
+		BCEF336FCAA14CD8B46C0D4B /* Jost-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0753D9CFC224315A5430A9A /* Jost-ExtraLightItalic.ttf */; };
+		69840E0671634ED19E71FB75 /* Jost-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA608C7280A42249FA8DD9A /* Jost-Italic.ttf */; };
+		61BD64E2071144D1AD5AD408 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF480D8D0C5421999113C6A /* Jost-Light.ttf */; };
+		4A5244DEC4744DCBBF4B380C /* Jost-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2671844347494943BE7F3268 /* Jost-LightItalic.ttf */; };
+		D327873C48D74C678F9FF3B7 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58DBA301570E45FB8C161F8C /* Jost-Medium.ttf */; };
+		7980845497A543029F50FDD7 /* Jost-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 560BF808AE9F49218FC06C72 /* Jost-MediumItalic.ttf */; };
+		CB6AE893F9514EB9A0657026 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25CC4B9C04F64FA8A7BD556C /* Jost-Regular.ttf */; };
+		A74962EE8D414EF2AB240084 /* Jost-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A60E19873F145E29A3D7503 /* Jost-SemiBold.ttf */; };
+		1135372077004B3B9BE9299A /* Jost-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3EFD4394C842159F5BA29C /* Jost-SemiBoldItalic.ttf */; };
+		E324C692B0184E6FA3628948 /* Jost-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 527962EE4381428F9055F6D9 /* Jost-Thin.ttf */; };
+		5D8B50FDE40C48A4AD6B087D /* Jost-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2FF59BA7D6C445985F755DD /* Jost-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,24 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = plant/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = plant/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		64CA2751B09C4F50AF497941 /* Jost-Black.ttf */ = {isa = PBXFileReference; name = "Jost-Black.ttf"; path = "../src/assets/fonts/Jost-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A81BDACB9CD4D86AAA89B1E /* Jost-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Jost-BlackItalic.ttf"; path = "../src/assets/fonts/Jost-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9E5F0E417DC4B0EAF6B5F24 /* Jost-Bold.ttf */ = {isa = PBXFileReference; name = "Jost-Bold.ttf"; path = "../src/assets/fonts/Jost-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DC95040FDD24E079C7D60BC /* Jost-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-BoldItalic.ttf"; path = "../src/assets/fonts/Jost-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0293A9D7054D44649FAB3BA8 /* Jost-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraBold.ttf"; path = "../src/assets/fonts/Jost-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C4DFD4836384C51B6DC3515 /* Jost-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1719E09EF1B41A7843175E4 /* Jost-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraLight.ttf"; path = "../src/assets/fonts/Jost-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0753D9CFC224315A5430A9A /* Jost-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AA608C7280A42249FA8DD9A /* Jost-Italic.ttf */ = {isa = PBXFileReference; name = "Jost-Italic.ttf"; path = "../src/assets/fonts/Jost-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CF480D8D0C5421999113C6A /* Jost-Light.ttf */ = {isa = PBXFileReference; name = "Jost-Light.ttf"; path = "../src/assets/fonts/Jost-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2671844347494943BE7F3268 /* Jost-LightItalic.ttf */ = {isa = PBXFileReference; name = "Jost-LightItalic.ttf"; path = "../src/assets/fonts/Jost-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58DBA301570E45FB8C161F8C /* Jost-Medium.ttf */ = {isa = PBXFileReference; name = "Jost-Medium.ttf"; path = "../src/assets/fonts/Jost-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		560BF808AE9F49218FC06C72 /* Jost-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Jost-MediumItalic.ttf"; path = "../src/assets/fonts/Jost-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25CC4B9C04F64FA8A7BD556C /* Jost-Regular.ttf */ = {isa = PBXFileReference; name = "Jost-Regular.ttf"; path = "../src/assets/fonts/Jost-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A60E19873F145E29A3D7503 /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; name = "Jost-SemiBold.ttf"; path = "../src/assets/fonts/Jost-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB3EFD4394C842159F5BA29C /* Jost-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Jost-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		527962EE4381428F9055F6D9 /* Jost-Thin.ttf */ = {isa = PBXFileReference; name = "Jost-Thin.ttf"; path = "../src/assets/fonts/Jost-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2FF59BA7D6C445985F755DD /* Jost-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ThinItalic.ttf"; path = "../src/assets/fonts/Jost-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +145,7 @@
 				00E356EF1AD99517003FC87E /* plantTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				890C3BACA1E14D12851557DE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +160,32 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		890C3BACA1E14D12851557DE /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				64CA2751B09C4F50AF497941 /* Jost-Black.ttf */,
+				2A81BDACB9CD4D86AAA89B1E /* Jost-BlackItalic.ttf */,
+				F9E5F0E417DC4B0EAF6B5F24 /* Jost-Bold.ttf */,
+				6DC95040FDD24E079C7D60BC /* Jost-BoldItalic.ttf */,
+				0293A9D7054D44649FAB3BA8 /* Jost-ExtraBold.ttf */,
+				1C4DFD4836384C51B6DC3515 /* Jost-ExtraBoldItalic.ttf */,
+				E1719E09EF1B41A7843175E4 /* Jost-ExtraLight.ttf */,
+				A0753D9CFC224315A5430A9A /* Jost-ExtraLightItalic.ttf */,
+				2AA608C7280A42249FA8DD9A /* Jost-Italic.ttf */,
+				8CF480D8D0C5421999113C6A /* Jost-Light.ttf */,
+				2671844347494943BE7F3268 /* Jost-LightItalic.ttf */,
+				58DBA301570E45FB8C161F8C /* Jost-Medium.ttf */,
+				560BF808AE9F49218FC06C72 /* Jost-MediumItalic.ttf */,
+				25CC4B9C04F64FA8A7BD556C /* Jost-Regular.ttf */,
+				4A60E19873F145E29A3D7503 /* Jost-SemiBold.ttf */,
+				DB3EFD4394C842159F5BA29C /* Jost-SemiBoldItalic.ttf */,
+				527962EE4381428F9055F6D9 /* Jost-Thin.ttf */,
+				A2FF59BA7D6C445985F755DD /* Jost-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +277,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				40D4A7B8BCD14EE08456FA3E /* Jost-Black.ttf in Resources */,
+				3CD29C60204C40B685FADE73 /* Jost-BlackItalic.ttf in Resources */,
+				8F50643BE54F4780B712F61E /* Jost-Bold.ttf in Resources */,
+				5883B3791C8549D1ABF09775 /* Jost-BoldItalic.ttf in Resources */,
+				C6834EE83505415B92022788 /* Jost-ExtraBold.ttf in Resources */,
+				CA5364820B2444748F7C4482 /* Jost-ExtraBoldItalic.ttf in Resources */,
+				94136705EB284692AF033681 /* Jost-ExtraLight.ttf in Resources */,
+				BCEF336FCAA14CD8B46C0D4B /* Jost-ExtraLightItalic.ttf in Resources */,
+				69840E0671634ED19E71FB75 /* Jost-Italic.ttf in Resources */,
+				61BD64E2071144D1AD5AD408 /* Jost-Light.ttf in Resources */,
+				4A5244DEC4744DCBBF4B380C /* Jost-LightItalic.ttf in Resources */,
+				D327873C48D74C678F9FF3B7 /* Jost-Medium.ttf in Resources */,
+				7980845497A543029F50FDD7 /* Jost-MediumItalic.ttf in Resources */,
+				CB6AE893F9514EB9A0657026 /* Jost-Regular.ttf in Resources */,
+				A74962EE8D414EF2AB240084 /* Jost-SemiBold.ttf in Resources */,
+				1135372077004B3B9BE9299A /* Jost-SemiBoldItalic.ttf in Resources */,
+				E324C692B0184E6FA3628948 /* Jost-Thin.ttf in Resources */,
+				5D8B50FDE40C48A4AD6B087D /* Jost-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
