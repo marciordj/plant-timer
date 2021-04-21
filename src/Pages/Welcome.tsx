@@ -8,8 +8,9 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+import Icon from 'react-native-vector-icons/Entypo';
+
 import wateringImage from '../assets/watering.png';
-import arrow from '../assets/Path.png';
 
 import colors from '../styles/colors';
 
@@ -28,7 +29,7 @@ const Welcome = () => {
       </Text>
 
       <TouchableOpacity style={styles.button}>
-        <Image source={arrow} style={{}} />
+        <Icon name="chevron-small-right" size={30} color="#FFF" />
       </TouchableOpacity>
     </SafeAreaView>
   );
