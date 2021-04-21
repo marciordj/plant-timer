@@ -1,8 +1,15 @@
 import React from 'react';
-import {Image, SafeAreaView, StyleSheet, Text} from 'react-native';
+import {
+  Dimensions,
+  Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+} from 'react-native';
 
 import wateringImage from '../assets/watering.png';
-import Button from '../components/Button';
+import arrow from '../assets/Path.png';
 
 import colors from '../styles/colors';
 
@@ -13,14 +20,16 @@ const Welcome = () => {
         Gerencie {'\n'} suas plantas de {'\n'} forma fácil
       </Text>
 
-      <Image source={wateringImage} style={styles.image} />
+      <Image source={wateringImage} style={styles.image} resizeMode="contain" />
 
       <Text style={styles.subtitle}>
         Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você
         sempre que precisar.
       </Text>
 
-      <Button />
+      <TouchableOpacity style={styles.button}>
+        <Image source={arrow} style={{}} />
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
@@ -40,8 +49,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   image: {
-    width: 292,
-    height: 284,
+    height: Dimensions.get('window').width * 0.7,
   },
   subtitle: {
     fontFamily: 'Jost-Regular',
@@ -50,6 +58,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingHorizontal: 18,
     lineHeight: 25,
+  },
+  button: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.green,
+    width: 56,
+    height: 56,
+    borderRadius: 15,
+    marginBottom: 10,
   },
 });
 
