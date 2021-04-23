@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import {
   Dimensions,
   Image,
@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Entypo';
 
@@ -19,6 +20,13 @@ import fonts from '../styles/fonts';
 // ! Não da pra colocar padding no SafeAreaView
 
 const Welcome = () => {
+  const navigation = useNavigation();
+
+  const openUserIdentifier = useCallback(
+    () => navigation.navigate('UserIdentification'),
+    [navigation],
+  );
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
@@ -37,7 +45,7 @@ const Welcome = () => {
           sempre que precisar.
         </Text>
 
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={openUserIdentifier}>
           <Icon name="chevron-thin-right" style={styles.buttonIcon} />
         </TouchableOpacity>
       </View>
