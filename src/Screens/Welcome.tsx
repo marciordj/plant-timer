@@ -12,7 +12,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Entypo';
 
-import wateringImage from '../assets/watering.png';
+import wateringImage from '../assets/img/watering.png';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
